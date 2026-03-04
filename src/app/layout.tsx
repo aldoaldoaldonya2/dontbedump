@@ -46,14 +46,15 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-        <body
-          className={`${jakartaSans.variable} ${notable.variable} antialiased`}
-        >
-          <ScrollSmoother>
-            <Navbar />
-            {children}
-          </ScrollSmoother>
-        </body>
+      <body
+        className={`${jakartaSans.variable} ${notable.variable} antialiased`}
+      >
+        <Navbar />
+        <ScrollSmoother>
+          {children}
+        </ScrollSmoother>
+      </body>
+
     </html>
   );
 }
