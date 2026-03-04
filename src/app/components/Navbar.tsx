@@ -8,7 +8,7 @@ if (typeof window !== "undefined") {
 }
 
 export default function Navbar() {
-    const handleScroll = (e: React.MouseEvent<HTMLAnchorElement, MouseEvent>, target: string) => {
+    const handleScroll = (e: React.MouseEvent<HTMLElement>, target: string) => {
         e.preventDefault();
         gsap.to(window, {
             duration: 0.6,
@@ -22,11 +22,11 @@ export default function Navbar() {
 
     return (
         <nav className="fixed top-0 left-0 w-full z-50 flex items-center justify-between px-10 py-6 bg-background text-white">
-            
+
             <ul className="list-none flex gap-6 font-limelight text-xl">
                 <li>
-                    <a 
-                        href="#about" 
+                    <a
+                        href="#about"
                         onClick={(e) => handleScroll(e, "#about")}
                         className="hover:text-red-500 transition-colors duration-300"
                     >
@@ -34,8 +34,8 @@ export default function Navbar() {
                     </a>
                 </li>
                 <li>
-                    <a 
-                        href="#music" 
+                    <a
+                        href="#music"
                         onClick={(e) => handleScroll(e, "#music")}
                         className="hover:text-red-500 transition-colors duration-300"
                     >
@@ -43,8 +43,8 @@ export default function Navbar() {
                     </a>
                 </li>
                 <li>
-                    <a 
-                        href="#story" 
+                    <a
+                        href="#story"
                         onClick={(e) => handleScroll(e, "#story")}
                         className="hover:text-red-500 transition-colors duration-300"
                     >
@@ -52,8 +52,8 @@ export default function Navbar() {
                     </a>
                 </li>
             </ul>
-            <h1 className="text-5xl font-notable absolute left-1/2 -translate-x-1/2 -translate-y-2" 
-                onClick={(e) => handleScroll(e, "#home")}>
+            <h1 className="text-5xl font-notable absolute left-1/2 -translate-x-1/2 -translate-y-2"
+                onClick={(e) => handleScroll(e, "#hero")}>
                 Dont Be Dumb
             </h1>
             <div className="flex items-center gap-6">
