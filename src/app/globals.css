@@ -51,3 +51,18 @@ body {
 ::-webkit-scrollbar-thumb:hover {
   background: #b3aaaa;
 }
+
+::selection {
+  background-color: #ec1d23;
+  /* Your desired highlight background color */
+  color: #fff;
+  /* Your desired highlight text color */
+}
+
+/* For Firefox compatibility */
+::-moz-selection {
+  background-color: #ec1d23;
+  /* Your desired highlight background color */
+  color: #fff;
+  /* Your desired highlight text color */
+}
