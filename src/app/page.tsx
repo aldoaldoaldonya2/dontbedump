@@ -1,4 +1,7 @@
 import Hero from "./partials/Hero";
+import About from "./partials/About";
+import Music from "./partials/Music";
+import Story from "./partials/Story";
 import Preloader from "./components/Preloader";
 
 export default function Index() {
@@ -6,10 +9,9 @@ export default function Index() {
     <main className="">
       {/* <Preloader /> */}
       <Hero />
-      <div id="about" className="h-screen w-full bg-white"></div>
-      <div id="music" className="h-screen w-full bg-gray-500"></div>
-      <div id="story" className="h-screen w-full bg-white"></div>
-      <div className="h-screen w-full bg-gray-500"></div>
+      <About />
+      <Music />
+      <Story />
     </main>
   );
 }
