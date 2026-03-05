@@ -34,7 +34,7 @@ export default function Hero() {
 
 
     return (
-        <section id="hero" className="h-[110vh] w-full bg-foreground overflow-hidden">
+        <section id="hero" className="h-screen w-full bg-foreground overflow-hidden">
             <div className="container mx-auto flex items-center text-black justify-between h-full relative z-10">
                 <div>
                     <h1 className="text-7xl font-bold font-notable">MANIFESTO</h1>

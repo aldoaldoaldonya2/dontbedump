@@ -67,10 +67,10 @@ export default function Marquee() {
         <section className="bg-black py-10 overflow-hidden border-y border-white/20">
             <div className="flex whitespace-nowrap relative">
                 <div ref={marqueeRef} className="flex shrink-0">
-                    <div ref={textRef} className="marquee-text text-3xl md:text-3xl font-notable text-white uppercase leading-none px-8">
+                    <div ref={textRef} className="marquee-text text-3xl md:text-3xl font-notable text-white uppercase leading-none px-3">
                         {repeatedContent}
                     </div>
-                    <div className="marquee-text text-3xl md:text-3xl font-notable text-white uppercase leading-none px-8">
+                    <div className="marquee-text text-3xl md:text-3xl font-notable text-white uppercase leading-none px-3">
                         {repeatedContent}
                     </div>
                 </div>
