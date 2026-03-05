@@ -34,7 +34,6 @@ export default function Story() {
 
     return (
         <section id="story" className="relative min-h-screen w-full bg-[#111] overflow-hidden flex items-center px-10 py-20">
-            {/* Visual background element */}
             <div className="story-bg absolute inset-0 opacity-20 pointer-events-none flex items-center justify-center">
                 <h1 className="text-[40vw] font-notable text-white select-none leading-none">DUMB</h1>
             </div>
@@ -50,12 +49,12 @@ export default function Story() {
                     </p>
                 </div>
                 <div className="hidden md:block">
-                    {/* Placeholder for a high-end visual or cinematic graphic */}
-                    <div className="w-full aspect-4/5 bg-white/5 border border-white/10 rounded-lg flex items-center justify-center backdrop-blur-3xl p-12">
-                        <div className="text-center">
+                    <div className="w-full aspect-square bg-white/5 border border-white/10 rounded-lg flex items-center justify-center backdrop-blur-3xl p-12">
+                        {/* <div className="text-center">
                             <h3 className="text-3xl font-notable mb-4">TIM BURTON</h3>
                             <p className="text-white/40 font-mono text-sm uppercase tracking-widest">Visual Consultant / Art Direction</p>
-                        </div>
+                        </div> */}
+                        <img src="/assets/images/dontbedumb.jpg" alt="" />
                     </div>
                 </div>
             </div>

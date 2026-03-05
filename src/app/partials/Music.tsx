@@ -9,16 +9,17 @@ if (typeof window !== "undefined") {
 }
 
 const tracks = [
-    "Order of Protection", "Helicopter$", "Interrogation (Skit)",
-    "Stole Ya Flow", "Stay Here", "Playa", "Trespass",
-    "Stop Snitching", "STFU", "Punk Rocky",
-    "Air Force (Black DeMarco)", "Whiskey (I'm Not Resisting)",
-    "Robbery", "Don't Be Dumb / Trip Baby", "The End"
+    "ORDER OF PROTECTION", "HELICOPTER$", "INTERROGATION (SKIT)",
+    "STOLED YA FLOW", "STAY HERE 4 LIFE (feat. Brent Faiyaz)", "PLAYA", "NO TRESPASSING",
+    "STOP SNITCHING (feat. Bossman Dlow & Sauce Walka)", "STFU (feat. Slay Squad)", "PUNK ROCKY",
+    "AIR FORCE (BLACK DEMARCO)", "WHISKEY (RELEASE ME) (feat. Gorillaz & Westside Gunn)",
+    "ROBBERY (feat. Doechii)", "DON'T BE DUMB / TRIP BABY", "THE END (feat. will.i.am & Jessica Pratt)", 
+    "SWAT TEAM", "FISH N STEAK (WHAT IT IS) (feat. Tyler, The Creator & Jozzy)", "FLACKITO JODYE (feat. Tokischa)", "I Smoked Away My Brain (I'm God x Demons Mashup)"
 ];
 
 const features = [
     "Tyler, The Creator", "Westside Gunn", "Doechii",
-    "Brent Faiyaz", "Gorillaz", "will.i.am", "Jon Batiste"
+    "Brent Faiyaz", "Gorillaz", "will.i.am", "Jozzy", "Slay Squad", "Bossman Dlow", "Sauce Walka", "Tokischa"
 ];
 
 export default function Music() {
