@@ -84,9 +84,9 @@ export default function Navbar() {
                     </a>
                 </li>
             </ul>
-            <h1 className="text-5xl cursor-help font-notable absolute left-1/2 -translate-x-1/2 -translate-y-2"
+            <h1 className="text-5xl text-nowrap cursor-help font-notable absolute left-1/2 -translate-x-1/2 -translate-y-2"
                 onClick={(e) => handleScroll(e, "#hero")}>
-                Don't Be
+                Don't Be Dumb
             </h1>
             <div className="flex items-center gap-6">
                 <a href="https://music.apple.com/us/album/dont-be-dumb/1862934946" target="_blank" className="hover:scale-110 transition-transform"><i className="bi bi-apple-music text-4xl"></i></a>
