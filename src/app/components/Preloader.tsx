@@ -59,7 +59,7 @@ export default function Preloader() {
         >
             <img
                 ref={imageRef}
-                src="/dontbedumb.jpg"
+                src="/assets/images/album.png"
                 alt="Don't Be Dumb"
                 className="w-1/2 md:w-1/3 max-w-md object-contain z-250 shadow-2xl"
                 data-flip-id="hero-img"
