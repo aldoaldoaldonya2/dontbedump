@@ -70,7 +70,7 @@ export default function Preloader() {
                 "<0.2"
             )
             .add(() => {
-                const target = document.querySelector("#hero-image-target");
+                const target = document.querySelector("#vinyl");
                 if (target && vinylWrapperRef.current && preloadOverlayRef.current) {
                     const state = Flip.getState(vinylWrapperRef.current);
 
@@ -78,6 +78,7 @@ export default function Preloader() {
 
                     target.appendChild(vinylWrapperRef.current);
 
+                    // Start fading out overlay and disable pointer events
                     gsap.to(preloadOverlayRef.current, {
                         // autoAlpha: 0,
                         opacity: 0,

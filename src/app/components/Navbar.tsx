@@ -17,8 +17,8 @@ export default function Navbar() {
             const showAnim = gsap.from(navRef.current, {
                 yPercent: -100,
                 paused: true,
-                duration: 0.2,
-                delay: 1,
+                duration: 0.3,
+                delay: 0.5,
                 ease: "power2.out"
             }).progress(1);
 

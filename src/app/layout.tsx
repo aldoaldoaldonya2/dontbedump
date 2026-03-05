@@ -48,7 +48,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${jakartaSans.variable} ${notable.variable} antialiased`}
+        className={`${jakartaSans.variable} ${notable.variable} ${limelight.variable} ${lacquer.variable} ${monoton.variable} antialiased`}
       >
         <Preloader />
         <Navbar />
