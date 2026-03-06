@@ -4,7 +4,7 @@ import Music from "./partials/Music";
 import Story from "./partials/Story";
 import Marquee from "./partials/Marquee";
 import Preloader from "./components/Preloader";
-
+import Introduce from "./partials/Introduce";
 export default function Index() {
   return (
     <main className="">
@@ -14,6 +14,7 @@ export default function Index() {
       <About />
       <Music />
       <Story />
+      <Introduce />
     </main>
   );
 }
