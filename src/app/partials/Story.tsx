@@ -50,10 +50,6 @@ export default function Story() {
                 </div>
                 <div className="hidden md:block">
                     <div className="w-full aspect-square bg-white/5 border border-white/10 rounded-lg flex items-center justify-center backdrop-blur-3xl p-12">
-                        {/* <div className="text-center">
-                            <h3 className="text-3xl font-notable mb-4">TIM BURTON</h3>
-                            <p className="text-white/40 font-mono text-sm uppercase tracking-widest">Visual Consultant / Art Direction</p>
-                        </div> */}
                         <img src="/assets/images/dontbedumb.jpg" className="select-none" alt="" />
                     </div>
                 </div>
