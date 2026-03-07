@@ -86,7 +86,7 @@ export default function Introduce() {
             <div
                 ref={sectionRef}
                 className="flex h-screen relative will-change-transform transform-gpu"
-                style={{ width: `${totalSlides * 100}vw` }}
+            // style={{ width: `${totalSlides * 100}vw` }}
             >
                 <div className="w-screen h-screen shrink-0 flex items-center justify-center p-10 md:p-20 relative overflow-hidden"
                     style={{ perspective: '1000px' }}>
