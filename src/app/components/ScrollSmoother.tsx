@@ -12,10 +12,15 @@ const GsapScrollSmoother = ({ children }: { children: React.ReactNode }) => {
 
   useEffect(() => {
     smoother.current = ScrollSmoother.create({
-      smooth: 1,
+      wrapper: '#smooth-wrapper',
+      content: '#smooth-content',
+      smooth: 1.2,
       effects: true,
       smoothTouch: 0.1,
+      normalizeScroll: true,
     });
+
+    ScrollTrigger.refresh();
 
     return () => {
       if (smoother.current) {
@@ -25,7 +30,7 @@ const GsapScrollSmoother = ({ children }: { children: React.ReactNode }) => {
   }, []);
 
   return (
-    <div id="smooth-wrapper">
+    <div id="smooth-wrapper" style={{ overflow: 'hidden', position: 'fixed', width: '100%', height: '100%', top: 0, left: 0 }}>
       <div id="smooth-content">
         {children}
       </div>

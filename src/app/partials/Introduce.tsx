@@ -68,6 +68,7 @@ export default function Introduce() {
                     ease: "none",
                     scrollTrigger: {
                         trigger: triggerRef.current,
+                        scroller: '#smooth-wrapper',
                         start: "top top",
                         end: () => `+=${(TOTAL_SLIDES - 1) * window.innerWidth}`,
                         scrub: 0.6,
