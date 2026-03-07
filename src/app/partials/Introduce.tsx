@@ -81,13 +81,12 @@ export default function Introduce() {
             pin.kill();
         };
     }, { scope: triggerRef, dependencies: [characters.length] });
-    7
     return (
-        <section ref={triggerRef} className="relative overflow-hidden bg-background">
+        <section ref={triggerRef} className="relative bg-background">
             <div
                 ref={sectionRef}
                 className="flex h-screen relative will-change-transform transform-gpu"
-                style={{ width: `${totalSlides * 14.2}vw` }}
+                style={{ width: `${totalSlides * 100}vw` }}
             >
                 <div className="w-screen h-screen shrink-0 flex items-center justify-center p-10 md:p-20 relative overflow-hidden"
                     style={{ perspective: '1000px' }}>
