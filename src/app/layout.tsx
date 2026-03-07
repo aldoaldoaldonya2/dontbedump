@@ -52,9 +52,9 @@ export default function RootLayout({
       >
         <Preloader />
         <Navbar />
-        <ScrollSmoother>
-          {children}
-        </ScrollSmoother>
+        {/* <ScrollSmoother> */}
+        {children}
+        {/* </ScrollSmoother> */}
       </body>
 
     </html>
