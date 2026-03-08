@@ -1,11 +1,15 @@
 'use client'
 
 import { useRef } from "react";
-import { gsap } from "gsap";
-import { ScrollTrigger } from "gsap/ScrollTrigger";
+// 1. Ubah jalur import ke /dist/
+import { gsap } from "gsap/dist/gsap";
+import { ScrollTrigger } from "gsap/dist/ScrollTrigger";
 import { useGSAP } from "@gsap/react";
 
-gsap.registerPlugin(ScrollTrigger);
+// 2. Register plugin hanya di sisi Client (Browser)
+if (typeof window !== "undefined") {
+    gsap.registerPlugin(ScrollTrigger);
+}
 
 const characters = [
     {
@@ -85,8 +89,10 @@ export default function Introduce() {
 
     return (
         <div ref={triggerRef} className="overflow-hidden">
+            {/* 3. Gunakan inline style untuk dynamic width */}
             <div
-                className={`flex w-[${TOTAL_SLIDES * 100}vw] h-screen flex-row will-change-transform transform-gpu`}
+                className="flex h-screen flex-row will-change-transform transform-gpu"
+                style={{ width: `${TOTAL_SLIDES * 100}vw` }}
                 ref={sectionRef}
             >
                 {/* Intro slide */}
