@@ -1,12 +1,10 @@
 'use client'
 
 import { useRef } from "react";
-// 1. Ubah jalur import ke /dist/
 import { gsap } from "gsap/dist/gsap";
 import { ScrollTrigger } from "gsap/dist/ScrollTrigger";
 import { useGSAP } from "@gsap/react";
 
-// 2. Register plugin hanya di sisi Client (Browser)
 if (typeof window !== "undefined") {
     gsap.registerPlugin(ScrollTrigger);
 }
@@ -119,7 +117,7 @@ export default function Introduce() {
                                 <span className="text-white/40 font-mono text-sm uppercase tracking-[0.3em] block">
                                     Character 0{index + 1}
                                 </span>
-                                <h2 className={`text-7xl md:text-9xl text-white uppercase leading-tight ${char.font} wrap-break-word`}>
+                                <h2 className={`text-5xl md:text-7xl text-white uppercase leading-tight ${char.font} wrap-break-word`}>
                                     {char.name}
                                 </h2>
                                 <h3 className="text-4xl md:text-5xl font-lacquer text-transparent bg-clip-text bg-linear-to-r from-white to-white/40">

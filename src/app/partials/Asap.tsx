@@ -57,7 +57,7 @@ export default function Asap() {
     const content = (
         <div className="container mx-auto">
             <div className="">
-                <p className='font-notable text-center text-7xl'>A$AP Rocky</p>
+                <p className='font-notable text-center text-7xl'>A<span className='font-lacquer'>$</span>AP Rocky</p>
                 <img src="/assets/images/gr1m.png" alt="" />
                 <div className="text-6xl">
                     <span className="font-bold">Rakim Mayers</span>, globally known as <span className='font-bold'>A$AP Rocky</span>, is more than just a rapper—he’s a cultural polymath.
