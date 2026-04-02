@@ -15,7 +15,6 @@ export default function Index() {
       <About />
       <Music />
       <Story />
-      {/* <Introduce /> */}
       <div className="h-[70vh] w-full bg-linear-to-b from-black to-white"></div>
       <Asap />
     </main>
