@@ -23,7 +23,6 @@ const GsapScrollSmoother = ({ children }: { children: React.ReactNode }) => {
           smooth: 1.2,
           effects: true,
           smoothTouch: 0.1,
-          normalizeScroll: true,
         });
 
         ScrollTrigger.refresh();
