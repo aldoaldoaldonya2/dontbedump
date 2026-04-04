@@ -13,6 +13,8 @@ const GsapScrollSmoother = ({ children }: { children: React.ReactNode }) => {
 
   useEffect(() => {
     if (typeof window !== "undefined") {
+      window.history.scrollRestoration = 'manual';
+
       const wrapper = document.querySelector('#smooth-wrapper');
       const content = document.querySelector('#smooth-content');
 
@@ -24,6 +26,13 @@ const GsapScrollSmoother = ({ children }: { children: React.ReactNode }) => {
           effects: true,
           smoothTouch: 0.1,
         });
+
+        setTimeout(() => {
+          window.scrollTo(0, 0);
+          if (smoother.current) {
+            smoother.current.scrollTop(0);
+          }
+        }, 100);
 
         ScrollTrigger.refresh();
       }
