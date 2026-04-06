@@ -24,7 +24,7 @@ const characters = [
         desc: "A paradox of high culture and low inhibitions. The elitist of the underground.",
         color: "from-blue-500 to-purple-600",
         font: "font-lacquer",
-        img: "/assets/images/gr1m.png"
+        img: "/assets/images/mayers.png"
     },
     {
         name: "RUGAHAND",
