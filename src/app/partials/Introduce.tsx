@@ -14,7 +14,7 @@ const characters = [
         name: "GR1M",
         title: "The Visionary",
         desc: "Leading the march for those who see beauty in simplicity and truth in the absurd.",
-        color: "from-red-500 to-orange-600",
+        color: "from-green-500 to-pink-600",
         font: "font-notable",
         img: "/assets/images/gr1m.png"
     },
@@ -24,21 +24,21 @@ const characters = [
         desc: "A paradox of high culture and low inhibitions. The elitist of the underground.",
         color: "from-blue-500 to-purple-600",
         font: "font-lacquer",
-        img: "/assets/images/gr1m.png"
+        img: "/assets/images/mayers.png"
     },
     {
         name: "RUGAHAND",
         title: "The Enforcer",
         desc: "Defying the logic of the masses. Breaking rules to find the real patterns.",
-        color: "from-green-500 to-emerald-600",
+        color: "from-blue-500 to-white",
         font: "font-limelight",
-        img: "/assets/images/gr1m.png"
+        img: "/assets/images/rugahand.png"
     },
     {
         name: "BABUSHKA BOI",
         title: "The Outsider",
         desc: "The observer of contradictions. He represents ancestral wisdom trapped in a hyper-modern circus, watching the world through a fractured lens.",
-        color: "from-yellow-400 to-amber-600",
+        color: "from-yellow-400 to-brown-400",
         font: "font-monoton",
         img: "/assets/images/gr1m.png"
     },
@@ -46,7 +46,7 @@ const characters = [
         name: "DUMMY",
         title: "The Mirror",
         desc: "The vessel of the masses. DUMMY is what remains when critical thought is traded for social currency—a beautiful, hollow icon.",
-        color: "from-yellow-400 to-amber-600",
+        color: "from-white to-yellow-600",
         font: "font-monoton",
         img: "/assets/images/gr1m.png"
     },
@@ -54,7 +54,7 @@ const characters = [
         name: "SHIRTHEAD",
         title: "The Chaos",
         desc: "The physical manifestation of social anxiety and the urge to disappear. He is the static in the brain that makes confidence feel like a lie.",
-        color: "from-cyan-400 to-blue-600",
+        color: "from-red-400 to-white",
         font: "font-notable",
         img: "/assets/images/gr1m.png"
     }
