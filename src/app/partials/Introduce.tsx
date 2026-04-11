@@ -40,7 +40,7 @@ const characters = [
         desc: "The observer of contradictions. He represents ancestral wisdom trapped in a hyper-modern circus, watching the world through a fractured lens.",
         color: "from-yellow-400 to-brown-400",
         font: "font-monoton",
-        img: "/assets/images/gr1m.png"
+        img: "/assets/images/babushkaboi.png"
     },
     {
         name: "DUMMY",
