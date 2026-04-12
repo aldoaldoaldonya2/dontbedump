@@ -46,9 +46,9 @@ const characters = [
         name: "DUMMY",
         title: "The Mirror",
         desc: "The vessel of the masses. DUMMY is what remains when critical thought is traded for social currency—a beautiful, hollow icon.",
-        color: "from-white to-yellow-600",
+        color: "from-blue-500 to-yellow-400",
         font: "font-monoton",
-        img: "/assets/images/gr1m.png"
+        img: "/assets/images/dummy.png"
     },
     {
         name: "SHIRTHEAD",
