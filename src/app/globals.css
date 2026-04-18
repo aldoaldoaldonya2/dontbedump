@@ -1,10 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Lacquer&family=Limelight&family=Monoton&family=Notable&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap');
 @import "tailwindcss";
 
-:root {
-  --background: #171717;
-  --foreground: #171717;
-}
 
 @theme inline {
   --color-background: var(--background);
@@ -16,17 +12,15 @@
   --font-lacquer: var(--font-lacquer);
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #171717;
-    --foreground: #fef6e0;
+:root {
+  --background: #171717;
+  --foreground: #fef6e0;
 
-    --font-jakarta: 'Plus Jakarta Sans', sans-serif;
-    --font-monoton: 'Monoton', sans-serif;
-    --font-limelight: 'Limelight', sans-serif;
-    --font-notable: 'Notable', sans-serif;
-    --font-lacquer: 'Lacquer', sans-serif;
-  }
+  --font-jakarta: 'Plus Jakarta Sans', sans-serif;
+  --font-monoton: 'Monoton', sans-serif;
+  --font-limelight: 'Limelight', sans-serif;
+  --font-notable: 'Notable', sans-serif;
+  --font-lacquer: 'Lacquer', sans-serif;
 }
 
 /* * {

@@ -56,7 +56,7 @@ const characters = [
         desc: "The physical manifestation of social anxiety and the urge to disappear. He is the static in the brain that makes confidence feel like a lie.",
         color: "from-red-400 to-white",
         font: "font-notable",
-        img: "/assets/images/gr1m.png"
+        img: "/assets/images/shirthead.png"
     }
 ];
 
